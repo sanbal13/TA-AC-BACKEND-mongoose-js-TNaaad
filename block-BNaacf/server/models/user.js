@@ -8,10 +8,3 @@ let userSchema = new Schema({
     marks: [Number],
 });
 
-let addressSchema = new Schema({
-    village: String,
-    city: String,
-    state: String,
-    pin: Number,
-    user: Schema.Types.ObjectId
-})
